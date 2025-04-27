@@ -1,0 +1,209 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# Byte-compiled Python files (specifically for Windows)
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pytest_cache/
+
+# Translations
+*.mo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Other
+*.bak
+*.tmp
+*.swp
+
+# Specific packages or tools
+# FontTools
+fontTools/
+varLib/
+
+# Packaging
+packaging/
+
+# PyParsing
+pyparsing/
+
+# Requests Cache
+requests_cache/
+
+# Platformdirs
+platformdirs/
+
+# DefusedXML
+defusedxml/
+
+# Colorama
+colorama/
+
+# Flake8
+flake8/
+.flake8
+
+# Pyflakes
+pyflakes/
+
+# Isort
+isort/
+
+# Tenacity
+tenacity/
+
+# Rich
+rich/
+
+# Pip
+pip/
+pip-selfcheck.json
+
+# Wheel
+wheel/
+
+# Setuptools
+setuptools/
+easy-install.pth
+*.egg-link
+
+# Sphinx
+docs/_build/
+docs/build/
+
+# Virtualenv
+.virtualenvs/
+venv/
+venv-*/
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
