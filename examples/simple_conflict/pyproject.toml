@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple-conflict-example"
+version = "0.1.0"
+description = "A simple example of package conflicts for the Preemptive Module-Conflict Resolver"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# These two packages both have a 'utils' module, causing a namespace collision
+requests = "^2.28.1"
+httpx = "^0.23.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

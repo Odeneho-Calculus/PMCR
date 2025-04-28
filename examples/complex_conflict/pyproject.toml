@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "complex-conflict-example"
+version = "0.1.0"
+description = "A complex example of package conflicts for the Preemptive Module-Conflict Resolver"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# This complex example has multiple packages with overlapping module names
+# and transitive dependencies that also conflict
+django = "^4.1.0"
+flask = "^2.2.2"
+fastapi = "^0.85.0"
+sqlalchemy = "^1.4.41"
+django-rest-framework = "^0.1.0"
+flask-sqlalchemy = "^3.0.2"
+drf-yasg = "^1.21.4"
+pydantic = "^1.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.8.0"
+flake8 = "^5.0.4"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

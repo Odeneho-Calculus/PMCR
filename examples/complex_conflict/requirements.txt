@@ -1,0 +1,29 @@
+# Complex conflict example
+# This file contains multiple packages with potentially conflicting modules
+# and transitive dependencies that also conflict
+
+# Web frameworks with potential module collisions
+django==4.1.0
+flask==2.2.2
+fastapi==0.85.0
+
+# ORM and database tools
+sqlalchemy==1.4.41
+flask-sqlalchemy==3.0.2
+
+# API frameworks
+django-rest-framework==0.1.0
+drf-yasg==1.21.4
+
+# Validation and serialization
+pydantic==1.10.2
+
+# HTTP libraries
+requests==2.28.1
+httpx==0.23.0
+
+# Development tools
+pytest==7.1.2
+black==22.8.0
+flake8==5.0.4
+mypy==0.971
