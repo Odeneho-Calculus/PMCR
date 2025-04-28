@@ -16,7 +16,7 @@ django-rest-framework==0.1.0
 drf-yasg==1.21.4
 
 # Validation and serialization
-pydantic==1.10.2
+pydantic==1.10.13
 
 # HTTP libraries
 requests==2.28.1
