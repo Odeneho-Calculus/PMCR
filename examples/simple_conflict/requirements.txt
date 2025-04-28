@@ -1,5 +1,5 @@
 # Simple conflict example
 # Both requests and httpx have utility modules that can conflict
 
-requests==2.28.1
+requests==2.32.2
 httpx==0.23.0
