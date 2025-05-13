@@ -3,7 +3,7 @@
 # and transitive dependencies that also conflict
 
 # Web frameworks with potential module collisions
-django==4.1.0
+django==4.2.20
 flask==2.2.2
 fastapi==0.85.0
 
